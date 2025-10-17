@@ -39,9 +39,11 @@ function App() {
     <div>
       <Sidebar />
       <Navbar />
+      <Dashboard/>
+      
       <div style={{ marginLeft: "14%" }}>
         <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
+      
           <Route path="/product/:id" element={<Product />} />
           <Route
             path="/card"
