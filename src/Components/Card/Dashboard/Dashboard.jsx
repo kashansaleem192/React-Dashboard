@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Dashboard = () => {
   return (
   <>
-<Link to="/dashboard">
+
   <div className="grid grid-cols-4 gap-4 mt-6 dashboard-box">
   <div className="bg-gray-900 text-white p-5 rounded-xl shadow text-center">
     <p className="text-gray-400 text-sm">Total Users</p>
@@ -23,7 +23,7 @@ const Dashboard = () => {
     <h2 className="text-2xl font-bold">1</h2>
   </div>
 </div>
-</Link>
+
 
   
   </>
