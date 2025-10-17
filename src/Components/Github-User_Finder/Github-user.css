@@ -1,0 +1,125 @@
+.heading-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+  margin-right: 3px;
+  outline: none;
+  font-size: 14px;
+  padding: 2px;
+}
+h1{
+  margin-top: 20px;
+}
+.github-img{width: 100px;
+ margin-top: 20px;
+}
+.my-container{
+  padding: 20px;
+  width: 360px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 57%;
+  
+  transform: translate(-50% , -50%);
+ 
+}
+.my-container .user-details{
+  padding: 2px;
+  margin-top: 25px;
+}
+.my-container .user-details .img-box{
+  height: 100px;
+  width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+float: left;
+}
+
+.my-container .user-details .img-box img{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+
+.my-container .user-details .name{
+  position: relative;
+  left: 13px;
+  color: #fff;
+  margin-top: 7px;
+  font-size: 22px;
+
+}
+
+.my-container .user-details .username {
+position: relative;
+left: 13px;
+font-size: 13px;
+color: #3E96F4;
+}
+.my-container .user-details .join-date{
+  position: relative;
+  left: 13px;
+  font-size: 12px;
+  color: #ccc7bf;
+  margin-top: 10px;
+}
+.my-container .user-details .bio{
+  
+  margin-top: 42px;
+  color: #ccc7bf;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+
+.my-container .userprofile{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+  border-radius: 10px;
+  background-color: #3E96F4;
+  padding: 15px 10px;
+  color: white;
+}
+.my-container .userprofile div{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-container .userprofile div span{
+  font-size: 13px;
+  color: #d8d8d8;
+  position: static; 
+}
+
+.my-container .userprofile div h2{
+    margin: 0;
+  font-size: 24px;
+  color: white;
+  position: static; 
+}
+.my-container .user-other-details{
+  padding: 2px;
+  margin-top: 7px;
+}
+.my-container .user-other-details p{
+  color: #ccc7bf;
+  margin-top: 8px;
+   font-size: 15px;
+}
+.my-container .user-other-details p i{
+color: #3E96F4;
+font-size: 14px;
+}
+
